@@ -5,7 +5,8 @@
     "publish": "npm run build && push-dir --dir=dist --branch=gh-pages --cleanup",
     "start": "webpack-dev-server --config config/webpack.config.js --open",
     "type-check": "tsc",
-    "test:unit": "jest"
+    "test:unit": "jest",
+    "lint": "eslint ."
   },
   "dependencies": {
     "@types/copy-webpack-plugin": "^4.4.3",
@@ -31,7 +32,14 @@
     }
   },
   "devDependencies": {
+    "eslint": "^5.15.2",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.16.0",
     "jest": "^24.5.0",
-    "ts-jest": "^24.0.0"
+    "prettier": "^1.16.4",
+    "ts-jest": "^24.0.0",
+    "tslint": "^5.14.0",
+    "tslint-config-prettier": "^1.18.0",
+    "tslint-plugin-prettier": "^2.0.1"
   }
 }
