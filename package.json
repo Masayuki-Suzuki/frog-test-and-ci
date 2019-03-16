@@ -4,7 +4,8 @@
     "build": "echo NODE_ENV=$NODE_ENV && webpack --config config/webpack.config.js",
     "publish": "npm run build && push-dir --dir=dist --branch=gh-pages --cleanup",
     "start": "webpack-dev-server --config config/webpack.config.js --open",
-    "type-check": "tsc"
+    "type-check": "tsc",
+    "test:unit": "jest"
   },
   "dependencies": {
     "@types/copy-webpack-plugin": "^4.4.3",
@@ -28,5 +29,9 @@
     "moduleNameMapper": {
       "\\.css$": "<rootDir>/src/testMocks/styleMock.js"
     }
+  },
+  "devDependencies": {
+    "jest": "^24.5.0",
+    "ts-jest": "^24.0.0"
   }
 }

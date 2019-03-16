@@ -1,9 +1,9 @@
 import HannyaRoller from './HannyaRoller';
-import text from './hannya-text';
 
 describe('HannyaRoller', () => {
   it('is OK', () => {
-    expect(1 + 2).toBe(4);
+    expect(1 + 2).toBe(4)
+    expect(2 + 2).toEqual(4)
   });
 
   // /** @type HannyaRoller */
@@ -26,4 +26,4 @@ describe('HannyaRoller', () => {
   //   const elSpace = el.firstElementChild;
   //   expect(elSpace.classList.contains('HannyaRoller-space')).toBeTruthy();
   // });
-});
+})
