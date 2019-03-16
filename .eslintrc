@@ -28,6 +28,7 @@
         "no-unused-vars": [
             "off"
         ],
-        "prefer-const": "error"
+        "prefer-const": "error",
+        "semi": "off"
     }
 }
