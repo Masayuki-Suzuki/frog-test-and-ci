@@ -2,7 +2,7 @@ import HannyaRoller from './HannyaRoller';
 
 describe('HannyaRoller', () => {
   it('is OK', () => {
-    expect(1 + 2).toBe(4)
+    expect(2 + 2).toBe(4)
     expect(2 + 2).toEqual(4)
   });
 
