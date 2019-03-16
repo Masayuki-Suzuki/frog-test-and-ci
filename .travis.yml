@@ -10,7 +10,7 @@ before_script:
 
 script:
   - yarn type-check
-  - yarn lint"
+  - yarn lint
   - yarn test:unit --coverage
 
 after_script:
