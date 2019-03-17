@@ -5,7 +5,7 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 const InterpolateHtmlPlugin = require('interpolate-html-plugin');
 
 const isProduction = process.env.NODE_ENV === 'production';
-const publicPath = isProduction ? '/hannya-roll' : '';
+const publicPath = isProduction ? '/frog-test-and-ci' : '';
 
 module.exports = {
   mode: isProduction ? 'production' : 'development',
